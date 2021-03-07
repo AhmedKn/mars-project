@@ -1,0 +1,29 @@
+.scientist-section{
+    background-image:url(../assets/marsbg.jpg);
+  height:100vh;
+  background-size:cover;
+  background-position:center;
+  position: relative;
+}
+.scientist-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.scientist-body p{
+  color: white;
+}
+.sc-1{
+  font-size: 80px;
+}
+.sc-2{
+  font-size: 50px;
+}
+.sc-3{
+  font-size: 35px;
+}
+.sc-4{
+  font-size: 25px;
+}

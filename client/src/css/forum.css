@@ -1,0 +1,103 @@
+.forum-section{
+    background-image:url(../assets/marsbg.jpg);
+    background-size:cover ;
+}
+.comment-box{
+    margin-top: 150px;
+    margin: 50px;
+}
+.comment-box textarea{
+    background-color:inherit ;
+    padding:10px ;
+    border: none;
+    border: 1px solid gray;
+    width: 100%;
+    display: block;
+    margin-bottom:20px;
+    height: 50px;
+    outline: none;
+    color: white;
+    margin: auto;
+    height:150px;
+    margin-bottom:20px;
+    resize:none;
+}
+
+.comment-box button{
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 52px;
+    border-radius: 10px;
+    font-size: 21px;
+    text-transform: uppercase;
+
+}
+
+.comment-box button:hover{
+    background-color:white ;
+    color: black;
+    border: 1px solid white;
+    transition: all .4s ease;
+}
+.messages-box{
+    padding:30px;
+    margin:20px 40px ;
+}
+.messages-section h2{
+    color: white;
+    font-family: sans-serif;
+    border-bottom: 1px solid white;
+    padding-top: 70px;
+    margin-left: 50px;
+}
+.messages-section{
+     color: white;
+    font-family: sans-serif;
+    border-bottom: 1px solid white;
+    padding-top: 70px;
+    margin-left: 50px;
+    height: fit-content;
+}
+.message-upperbox{
+    border: 1px solid white;
+    display: flex;
+    height: 65px;
+    align-items: center;
+    padding-left:20px ;
+    margin-top:10px ;
+}
+.message-date{
+    padding-left: 50px;
+}
+.message-upperbox p{
+    color: white;
+    font-family: sans-serif;
+}
+.message-down{
+display: flex;
+border-bottom: 1px solid white;
+border-left: 1px solid white;
+border-right: 1px solid white;
+}
+.down-left-message{
+    border-right: 1px solid white;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.down-left-message p{
+    color: white;
+}
+.down-right-message{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.down-right-message p{
+    color: white;
+    font-weight:bold ;
+    font-family: sans-serif;
+}

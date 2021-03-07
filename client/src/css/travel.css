@@ -1,0 +1,32 @@
+.travel-section{
+    background-image: url(../assets/rocket.webp);
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    height: 100vh;
+}
+.travel-sec-section{
+    margin-left: 50px;
+    margin-top: 150px;
+    width: 50vh;
+}
+.travel-sec-section h2{
+    color: white !important;
+    font-weight: bold;
+}
+.travel-sec-section p{
+    margin-top: 50px;
+    color: white !important;
+}
+.travel-time{
+    margin-left: 50px;
+    margin-top: 150px;
+    width: 50vh;
+}
+.travel-time h2{
+    color: white !important;
+    font-weight: bold;
+}
+.travel-time p{
+    margin-top: 50px;
+    color: white !important;
+}

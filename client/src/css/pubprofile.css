@@ -1,0 +1,30 @@
+.Profile-section{
+    background-image: url(../assets/marsbg.jpg);
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    height: 100vh;
+}
+.profile-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.profile-box h2{
+    color: white;
+}
+.profile-info{
+    border: 1px solid white;
+    height: 50vh;
+    width: 100vh;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+.profile-box p{
+    color: white;
+    font-size: 24px;
+}
